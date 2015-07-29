@@ -1,0 +1,471 @@
+---
+layout: base
+title: State of the Email 
+class: emailstack
+---
+<!--GSAP-->
+<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
+<!--scrollmagic-->
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+
+
+<section style="background-color: #addbde;">
+<div class="container">
+	<div class="row">
+		<div>
+			<div class="col-sm-12" id="header">
+				<h1 class="text-white" id="header" style="font-size:50px;">State of the Email Stack</h1>
+				<hr>
+				<h2 id="header" class="text-white" style="font-size: 27px;">An overview of the email industry and what you need to get started. 
+					<br><br>
+					From paid services to open source alternatives. 
+					<br><br>
+					We break it down into 6 categories. 
+					<br><br>
+
+				</h2>
+				<div class="row">
+					<div id="icons">
+						<ul>
+							<li>
+								<a href="#section2" id="designpic"><img src="{{ '/design.png' | prepend: site.assets_images }}" style="height: 75px;">
+									<p class="show">
+									Design
+									</p>
+								</a>
+							</li><li>
+								<a href="#section3" id="storepic"><img src="{{ '/storage.png' | prepend: site.assets_images }}" style="height: 75px;">
+									<p class="show">
+										Storage
+									</p>
+								</a>
+							</li><li>
+								<a href="#section4" id="datapic"><img src="{{ '/data.png' | prepend: site.assets_images }}" style="height: 75px;">
+									<p class="show">
+										Data
+										</p>
+								</a>
+							</li><li>
+								<a href="#section5" id="renderpic"><img src="{{ '/rendering.png' | prepend: site.assets_images }}" style="height: 75px;">
+									<p class="show">
+										Render
+										</p>
+								</a>
+							</li><li>
+								<a href="#section6"><img src="{{ '/sending.png' | prepend: site.assets_images }}" style="height: 75px;">
+									<p class="show">
+										Send
+										</p>
+								</a>
+							</li><li>
+								<a href="#section7"><img src="{{ '/reporting.png' | prepend: site.assets_images }}" style="height: 75px;">
+									<p class="show">
+										Report
+										</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div><!--row-->		
+					<br><br>
+					<a href="#intro"><img src="{{ '/cta.png' | prepend: site.assets_images }}" style="width: 175px;"></a>
+			</div><!--col-md-12-->
+		</div><!--fadeout-->
+	</div>
+</div>
+</section>
+
+<!--------------Introduction Section1-------------->
+<div class="container-fluid" id="intro">
+	<div class="row">
+		<div class="col-sm-6 col-sm-6 text-center"> 
+			<div class="row" style="margin-left: 15px;">
+				<div style="margin-top:100px;"> 
+				<h1>Where do you even <span style="color:#a285c5">start</span>?</h1>
+				<hr>
+				<h3> From designing emails to tracking metrics, <br>the modern email stack is surprisingly complex. <br>With so many moving parts how do you keep track of it all? 
+				
+					<br><br>
+				At send<span class="text-orange">with</span>us we feel your pain. <br> That's why we designed this guide which will <br> take you through every step of the process. 
+				<br><br> 
+				
+				Each category is broken up into subcategories and includes our suggested services, some of which are open source!
+				<br><br>
+				Click on the subcategory for the nitty gritty details. 
+				</h3>
+				</div><!--margin-top-->
+				<div class="col-sm-12">
+					<a href="#section2"><img src="{{ '/iarrow.png' | prepend: site.assets_images }}"></a>
+				</div>
+			</div><!--second row-->
+		</div><!--col-sm-6 col-sm-6-->
+
+<!---------Mobile Fixed Image -------->
+		<div class="col-sm-6 col-sm-6 text-center" id="mobile">
+			<div id="mobilepic">
+					<img src="{{ '/intro.svg' | prepend: site.assets_images }}" style="position: relative; width: 100%;"> 
+			</div>
+		</div>
+
+<!---------Tablet Fixed Image -------->
+		<div class="col-sm-6 col-sm-6 text-center" id="tablet">
+			<div id="tabletpic">
+					<img src="{{ '/tintro.svg' | prepend: site.assets_images }}" style="position: relative; width: 100%; padding-top: 195px;"> 
+				</div>
+		</div>
+
+<!--------pallarax image-------->
+		<div class="col-sm-6 col-sm-6 text-center" id="container"> 
+			<div> 
+				<div id="demopic">
+					<img src="{{ '/intro.svg' | prepend: site.assets_images }}" style="position: relative; width: 100%;" class="graphics"> 
+				</div>
+			</div><!--fade-->
+		</div><!--col-sm-6 col-sm-6-->
+	</div><!--row-->
+</div><!--container-fluid-->
+
+<!--------------Design Section2-------------->
+<div class="container-fluid" id="section2">
+	<div class="row">
+		<div class="col-sm-6 col-sm-6 text-center"> 
+				<div style="margin-top:100px; margin-left: 15px;"> 
+					<h1><span style="color:#88b4a9">Design</span></h1>
+					<hr>
+						<h2 style="font-size:24px;">
+							Making something pretty in photoshop is one thing, <br>
+							translating that into an email is another matter entirely. <br> <br>First step to designing emails: turn your designs into code. 
+
+						</h2>
+	<!--raw code-->
+					<div>
+						<h3><a href="#rawcode" >From Scratch </a>
+						</h3>
+					 		<h4>
+					 			<span>	 
+					 				If you choose to write your own templates from scratch, here's a <a href="https://www.emailonacid.com/blog/article/email-development/a_responsive_design_tutorial">handy guide to get you started on coding responsive designs</a>. You will also want to use something like <a href="https://github.com/premailer/premailer">Premailer</a> to automatically inline your CSS.
+					 			
+					 			</span>
+							</h4>
+					</div>
+	<!--editor-->
+						<h3><a href="#editor">Friendly Editors</a>
+					 	</h3>
+					 			<h4>
+					 				<span>
+
+					 					If you want something a little more user-friendly, but still want to be hands-on with the code, there are  editors like<a href="https://litmus.com/email-builder"> Litmus’ Email Builder</a> that are made specifically for email design. 
+					 					<br><br>
+					 					If you're more of the drag-and-drop type, <a href="https://builder.stamplia.com/">Stamplia</a> makes a great designer as well.
+					 					
+					 				</span>
+					 			</h4>
+						
+				</div>
+		<div class="col-sm-12">
+			<div class="row">
+					<a href="#section3"><img src="{{ '/designarrow.png' | prepend: site.assets_images }}" style=""></a>
+				</div>
+			</div><!--second row-->
+		</div>
+<!---------Mobile Fixed Image -------->
+		<div class="col-sm-6 col-sm-6 text-center" id="mobile">
+			<div id="mobilepic">
+					<img src="{{ '/design.svg' | prepend: site.assets_images }}" style="position: relative; width: 100%;"> 
+				</div>
+		</div>
+
+<!---------Tablet Fixed Image -------->
+		<div class="col-sm-6 col-sm-6 text-center" id="tablet">
+			<div id="tabletpic">
+					<img src="{{ '/tdesign.svg' | prepend: site.assets_images }}" style="position: relative; width: 100%; padding-top: 110px;"> 
+				</div>
+		</div>
+
+<!--------pallarax image-------->
+		<div class="col-sm-6 col-sm-6 text-center" id="container2"> 
+				<div id="demopic2">
+				<img src="{{ '/design.svg' | prepend: site.assets_images }}" style="position: relative; width: 100%;" class="graphics">
+				</div>
+		</div>
+	</div>
+</div>
+
+<!--------------Storage Section3-------------->
+<div class="container-fluid" id="section3">
+	<div class="row">
+		<div class="col-sm-6 col-sm-6 text-center"> 
+				<div style="margin-top:100px; margin-left: 15px;"> 
+					<h1><span style="color:#68cab6;">Storage </span></h1>
+					<hr>
+						<h3>
+							Now that your template is set, you need to stash it somewhere until it’s time to send. The biggest stumbling points here are usually administrative. How do you maintain a set of templates that are stable, but not stale? 
+						</h3>
+							<h3><a href="#vcontrol">Version Control</a> 
+							</h3>
+								<h4>
+									Updating your templates, especially for larger teams, can create a lot of problems.
+									If you’re going the DIY route, you can manage them with the rest of your code, but this requires the email team to understand <a href="https://github.com/">Github</a> or whatever you use for version control.
+									<br><br>
+									<a href="https://github.com/">Github</a>
+								</h4>
+							<h3><a href="#workflow">Workflow</a>
+							</h3>
+								<h4>
+									Automating anything you can is the key to keeping your email design workflow in order. You will probably want a system like the <a href="https://github.com/leemunroe/grunt-email-workflow">Grunt Email Design Workflow</a> project. It automates a lot of the process that we’ve covered so far, as well as stuff we’ll get to later like testing and sending (and even <a href="https://github.com/sendwithus/grunt-sendwithus">pushing to sendwithus</a>.)
+
+								</h4>
+				</div><!--margin-top:150px-->
+		<div class="col-sm-12">
+			<div class="row">
+					<a href="#section4"><img src="{{ '/storagearrow.png' | prepend: site.assets_images }}"></a>
+				</div>
+			</div><!--second row-->
+		</div>
+<!---------Mobile Fixed Image -------->
+		<div class="col-sm-6 col-sm-6 text-center" id="mobile">
+			<div id="mobilepic">
+					<img src="{{ '/storage.svg' | prepend: site.assets_images }}" style="position: relative; width: 100%;"> 
+				</div>
+		</div>
+
+<!---------Tablet Fixed Image -------->
+		<div class="col-sm-6 col-sm-6 text-center" id="tablet">
+			<div id="tabletpic">
+					<img src="{{ '/tstorage.svg' | prepend: site.assets_images }}" style="position: relative; width: 100%; padding-top: 145px;"> 
+				</div>
+		</div>
+
+<!--------pallarax image-------->
+		<div class="col-sm-6 col-sm-6 text-center" id="container3"> 
+				<div id="demopic3">
+				<img src="{{ '/storage.svg' | prepend: site.assets_images }}" style="position: relative; width: 100%;" class="graphics">
+				</div><!--demopic-->
+		</div><!--col-sm-6 col-sm-6-->
+	</div>
+</div>
+<!--------------Data Merging Section4-------------->
+<div class="container-fluid" id="section4">
+	<div class="row">
+		<div class="col-sm-6 col-sm-6 text-center"> 
+				<div style="margin-top:100px; margin-left: 15px;"> 
+					<h1><span style="color:#666981;">Personalization </span></h1>
+					<hr>
+						<h3>
+							Personalization data you want to use in your email can be merged in in two ways: it can be <i>pulled</i> from your customer database (in the case of a newsletter or batch email) or <i>pushed</i> with the event trigger (usually the case for transactional.) 
+						</h3>
+							<h3><a href="#dynamic">Formatting Dynamic Content</a> 
+							</h3>
+								<h4>
+									Typically, you’ll use some sort of templating language to organize the data you pass to be used in your email. <a href="http://jinja.pocoo.org/docs/dev/templates/">Jinja</a> has a really straight-forward intro to data manipulation in the docs.
+								</h4>	
+							<h3><a href="#event">Event Triggering</a> 
+							</h3>
+								<h4>
+									Pushing dynamic data is done through whatever you are using to trigger your email sends. A lot of people use a centralized event handler like <a href="https://segment.com/">Segment</a>, but this can also come from an analytics platform like <a href="http://www.mixpanel.com">MixPanel</a> or an event relay like <a href="https://zapier.com/">Zapier</a><br>
+								</h4>
+				</div><!--margin-top-->
+		<div class="row">
+				<div class="col-sm-12">		
+					<a href="#section5"><img src="{{ '/dataarrow.png' | prepend: site.assets_images }}"></a>
+				</div>
+			</div><!--second row-->
+		</div>
+<!---------Mobile Fixed Image -------->
+		<div class="col-sm-6 col-sm-6 text-center" id="mobile">
+			<div id="mobilepic">
+					<img src="{{ '/data.svg' | prepend: site.assets_images }}" style="position: relative; width: 100%;"> 
+				</div>
+		</div>
+
+<!---------Tablet Fixed Image -------->
+		<div class="col-sm-6 col-sm-6 text-center" id="tablet">
+			<div id="tabletpic">
+					<img src="{{ '/tdata.svg' | prepend: site.assets_images }}" style="position: relative; width: 100%; padding-top: 175px;"> 
+				</div>
+		</div>
+
+<!--------pallarax image-------->
+		<div class="col-sm-6 col-sm-6 text-center" id="container4"> 
+				<div id="demopic4">
+				<img src="{{ '/data.svg' | prepend: site.assets_images }}" style="position: relative; width: 100%;" class="graphics">
+				</div>
+		</div>
+	</div><!--removing this does nothing-->
+</div>
+<!--------------Rendering Section5-------------->
+<div class="container-fluid" id="section5">
+	<div class="row">
+		<div class="col-sm-6 col-sm-6 text-center"> 
+				<div style="margin-top:100px; margin-left: 15px;"> 
+					<h1><span style="color:#e17695;">Testing and Rendering</span></h1>
+					<hr>
+						<h3>
+							Now that you have everything in place, it's time to make sure it works.
+						</h3>
+						
+							<h3><a href="#clients">Email Clients</a> 
+								<br><br>
+							</h3>
+								<h4>
+									To test your rendering in any of the huge variety of emails clients, we  recommend <a href="http://www.litmus.com">Litmus</a>. It’s the industry standard in cross client compatibility. That said, never underestimate a simple test send to a couple of inboxes. 
+								</h4>
+							<h3><a href="#autotest">Automation Testing</a> 
+								<br><br>
+							</h3>
+								<h4>
+									Now you need to make sure your triggers work. This depends a lot on your setup; if you're sending events through something like <a href="http://www.segment.com">Segment.com</a>, you can watch the calls in their debugger.
+									An engineer of ours also developed <a href="http://insomnia.rest/">Insomnia</a>, which is a really cool tool for testing API calls. This is a great way to ensure that an event you send will be properly parsed and digested.
+								</h4>
+				</div>
+		<div class="col-sm-12">
+			<div class="row">
+					<a href="#section6"><img src="{{ '/render.png' | prepend: site.assets_images }}"></a>
+				</div>
+			</div><!--second row-->
+	</div><!--first row-->
+<!---------Mobile Fixed Image -------->
+		<div class="col-sm-6 col-sm-6 text-center" id="mobile">
+			<div id="mobilepic">
+					<img src="{{ '/rendering.svg' | prepend: site.assets_images }}" style="position: relative; width: 100%;"> 
+				</div>
+		</div>
+
+<!---------Tablet Fixed Image -------->
+		<div class="col-sm-6 col-sm-6 text-center" id="tablet">
+			<div id="tabletpic">
+					<img src="{{ '/trendering.svg' | prepend: site.assets_images }}" style="position: relative; width: 100%; padding-top: 25px;"> 
+				</div>
+		</div>
+
+<!--------pallarax image-------->
+		<div class="col-sm-6 col-sm-6 text-center" id="container5"> 
+			<div>
+				<div id="demopic5">
+				<img src="{{ '/rendering.svg' | prepend: site.assets_images }}" style="position: relative; width: 100%;" class="graphics">
+				</div><!--demopic-->
+			</div><!--fadein-->
+		</div><!--col-sm-6-->
+</div>
+
+<!--------------Sending Section6-------------->
+<div class="container-fluid" id="section6">
+	<div class="row">
+		<div class="col-sm-6 col-sm-6 text-center"> 
+			<div style="margin-top:100px; margin-left: 15px;"> 
+					<h1><span style="color:#79d4da;">Sending</span></h1>
+					<hr>
+						<h3>
+							So you have your bulletproof template ready to merge in dynamic data and render on any client known to man.<br><br> Now you just have to send it and make sure it gets there without getting marked as spam.
+						</h3>
+						<h3><a href="#deliver">Deliverability Basics</a></h3>
+							<h4>
+								There are a couple of basics you need to cover when setting up sending through a new domain
+								SPF records are just a list of servers that are allowed to send email from your domain.
+								DKIM records are a public key that clients can use to verify that an email was actually sent by you.
+							</h4>
+						<h3><a href="#esp">Choosing an ESP</a> </h3>
+							<h4>
+								We have a policy of ESP neutrality here, but there are some criteria you want to keep in mind when making this choice:
+								<ul>
+									<li>Template Management - Some ESPs, like <a href="https://sendgrid.com/">SendGrid</a> have built-in template storage for transactional emails.</li>
+									<li>Deliverability - In addition to supporting SPF and DKIM, you want to make sure your ESP can handle the volume you want to send. It's tough to beat <a href="https://www.sparkpost.com/">SparkPost</a> in that arena.</li>
+									<li>Dev-friendliness - It's also a good idea to make sure your chosen ESP can output your analytics events in a way that you can make use of. <a href="http://www.mailgun.com/">MailGun</a> is really good at this</li>
+								</ul>
+							</h4>
+						
+
+				</div>
+		<div class="col-sm-12">
+			<div class="row" >
+					<a href="#section7"><img src="{{ '/sendarrow.png' | prepend: site.assets_images }}"></a>
+				</div>
+			</div><!--third row-->
+		</div>
+<!---------Mobile Fixed Image -------->
+		<div class="col-sm-6 col-sm-6 text-center" id="mobile">
+			<div id="mobilepic">
+					<img src="{{ '/sending.svg' | prepend: site.assets_images }}" style="position: relative; width: 100%;"> 
+				</div>
+		</div>
+<!---------Tablet Fixed Image -------->
+		<div class="col-sm-6 col-sm-6 text-center" id="tablet">
+			<div id="tabletpic">
+					<img src="{{ '/tsending.svg' | prepend: site.assets_images }}" style="position: relative; width: 100%; padding-top: 175px;"> 
+				</div>
+		</div>
+
+<!--------pallarax image-------->
+		<div class="col-sm-6 col-sm-6 text-center" id="container6"> 
+			
+				<div id="demopic6">
+					<img src="{{ '/sending.svg' | prepend: site.assets_images }}" style="position: relative; width: 100%;" class="graphics">
+				</div><!--demopic-->
+			
+		</div>
+	</div>
+</div>
+<!--------------Reporting Section15-------------->
+<div class="container-fluid" id="section7">
+	<div class="row">
+		<div class="col-sm-6 col-sm-6 text-center"> 
+				<div style="margin-top:100px; margin-left: 15px;"> 
+					<h1><span style="color:#eb9673;">Reporting</span></h1>
+					<hr>
+
+						<h3>Most ESPs will give you analytics on your sends, bounces/deliveries, opens, and clicks. But what do you actually do with that information?
+						</h3>
+						
+							<h3><a href="#metrics">Metrics</a>
+							</h3>
+							<h4>
+								The most common metrics for measuring a successful email are Open Rate and Click-to-Open Rate (CTOR). Beware anything labelled as "Click Rate" that doesn't distinguish between the two. Some ESPs will also remove sends to those who have unsubscribed from the total. We've got a <a href="https://support.sendwithus.com/analytics/why_are_sendwithus_analytics_different/"> help doc</a> that goes into some more detail on these points.
+							</h4>
+
+							<h3><a href="#metrics">Analytics</a>
+							</h3>
+							<h4>
+								The most common metrics for measuring a successful email are Open Rate and Click-to-Open Rate (CTOR). Beware anything labelled as "Click Rate" that doesn't distinguish between the two. 
+							</h4>
+
+							<h3><a href="#abtesting">A/B Testing</a>
+							</h3>
+								<h4>
+									Testing and optimization work a little differently for marketing and transactional emails. Typically, for a marketing email, you'll send a small test to a subset of your list, then send the winning version to the rest – a batch test. With transactional, though, you get to run multiple rounds of testing on every email, what we call "continuous testing". 
+								</h4>
+				</div>
+		<div class="col-sm-12">
+			<div class="row">
+					<a href="#section8"><img src="{{ '/reportarrow.png' | prepend: site.assets_images }}"></a>
+				</div>
+			</div><!--second row fadeout4-->
+		</div>
+<!---------Mobile Fixed Image -------->
+		<div class="col-sm-6 col-sm-6 text-center" id="mobile">
+			<div id="mobilepic">
+					<img src="{{ '/reporting.svg' | prepend: site.assets_images }}" style="position: relative; width: 100%;"> 
+				</div>
+		</div>
+<!---------Tablet Fixed Image -------->
+		<div class="col-sm-6 col-sm-6 text-center" id="tablet">
+			<div id="tabletpic">
+					<img src="{{ '/treporting.svg' | prepend: site.assets_images }}" style="position: relative; width: 100%; padding-top: 165px;"> 
+				</div>
+		</div>
+
+<!--------pallarax image-------->
+		<div class="col-sm-6 col-sm-6 text-center" id="container7"> 
+			
+			
+					<div id="demopic7">
+					<img src="{{ '/reporting.svg' | prepend: site.assets_images }}" style="position: relative; width: 100%;" class="graphics">
+					</div><!--demopic-->
+				
+		
+		</div>
+	</div>
+</div>
+

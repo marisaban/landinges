@@ -1,0 +1,234 @@
+//
+// **NOTE**: THIS IS A DUMPING GROUND FOR TEMPORARY STYLES AND IS NOT A PERMANENT SOLUTION
+// Misc styles can be placed here, they should be refactored or placed
+// elsewhere when you're in a better frame of mind or have the time.
+//
+// If you see something in here, make an effort to move it,
+// or talk to someone about it and see if it can be placed elsewhere.
+// -----------------------
+//
+
+.body-developers,
+.body-guide,
+.body-features,
+.body-stripe {
+  a.permalink-link {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+  }
+}
+
+.body-guide {
+  .bs-docs-sidebar .nav > .active > .nav > li > a {
+    padding-left: 28px !important;
+    font-weight: 500;
+  }
+
+  .bs-docs-sidebar .nav > li > .nav {
+    display:none;
+  }
+
+  .bs-docs-sidebar .nav > .active > .nav {
+    display: block;
+  }
+
+  .bs-docs-sidebar .nav > .active > a,
+  .bs-docs-sidebar .nav > .active:hover > a,
+  .bs-docs-sidebar .nav > .active:focus > a {
+    padding-left: 18px;
+    font-weight: 700;
+    color: #58585B;
+    background-color: transparent;
+    border-left: 2px solid #58585B;
+  }
+
+  .bs-docs-sidebar .nav a {
+    border-left: 1px solid white;
+  }
+
+  a.permalink-link {
+    top: -200px;
+  }
+}
+
+.body-gallery {
+  .gallery-theme {
+    .gallery-thumb {
+      height: 300px;
+    }
+
+    .gallery-hover {
+      padding-top: 0;
+    }
+
+    .gallery-hover-buttons {
+      margin-top: 90px;
+    }
+  }
+
+  .gallery-thumb {
+    cursor: pointer;
+    height: 220px;
+    background-size: cover;
+  }
+
+  .gallery-hover {
+    background: rgba(64, 64, 64, 0.7);
+    margin: 0;
+    height: 100%;
+    padding-top: 50px;
+    display: none;
+
+    h2,
+    h4 {
+      text-transform: capitalize;
+    }
+  }
+
+  .gallery-litmus-img {
+    height: 18px;
+    width: 18px;
+  }
+}
+
+.jumbotron-sendgrid {
+  @media (min-width: @screen-md-min) {
+    min-height: 100%;
+    height: 500px; 
+  }
+}
+
+  .body-emailstack {
+    /*----Media Queries---*/
+
+/** desktop **/
+@media only screen and (min-width: 767px) {
+  #mobile{
+    display: none;
+  }
+  #tablet, #tablet1, #tablet2, #tablet3, #tablet4, #tablet5, #tablet6 {
+    display: none;
+  }
+}
+/**tablet**/
+@media only screen and (min-width : 768px) and (max-width : 1200px) {
+  #container, #container1, #container2, #container3, #container4, #container5, #container6, #container7, #twitter {
+    display: none;
+  }
+  #tablet, #tablet1, #tablet2, #tablet3, #tablet4, #tablet5, #tablet6  {
+    display: block; height: 50px;
+  }
+  #twitter {
+    display: none;
+  }
+}
+/** Mobile **/
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+  #container, #container1, #container2, #container3, #container4, #container5, #container6, #container7, #twitter {
+    display: none;
+    margin-right: 0px;
+  }
+  #mobile{
+    display: block;
+    
+  }
+  #tablet, #tablet1, #tablet2, #tablet3, #tablet4, #tablet5, #tablet6 {
+    display: none;
+  }
+  #intro, #section2, #section3, #section4, #section5, #section6, #section7 {
+    margin-left: -20px; 
+  }
+  #title {
+    margin-left: -50px;
+  }
+}
+
+/*-----End of Media Queries----*/
+
+  #fadein-trigger > div {
+    height: 350px;
+    opacity: 0;
+  }
+
+    #firstsection{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+}
+
+  h1, #text{
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 10px;
+    line-height: 125%;
+  }
+
+  h4 {
+    text-align: left;
+    line-height: 35px;
+    margin-top: 15px;
+    margin-left: 50px;
+  }
+
+  div #header {
+    text-align: center;
+  }
+
+  img{
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+  }
+
+
+/** list icon menu **/
+
+  #icons {
+    display: inline-block;
+    position: relative;
+
+  }
+
+  #icons ul {
+    list-style: none;
+    margin: 0 auto;
+  }
+
+  #icons ul li {
+    display: inline-block;
+    list-style: none;
+      padding: 0;
+      margin: 0;
+      float: left;
+      color: #000;
+      width: 66px;
+  }
+
+  #icons ul li a {
+    display: block;
+      margin-bottom: 2px; 
+      font-size: 11px;
+    text-decoration: none;
+  }
+
+  .show {
+    color: white;
+    opacity: 0;
+    font-size: 18px;
+  }
+
+  #icons ul li a:hover p{
+    opacity: 1;
+
+  }
+
+  .show:hover {
+    opacity: 1;
+    
+  }
+
+/**** end of icon menu ****/
+
+  }
